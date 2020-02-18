@@ -1,3 +1,106 @@
 @charset "UTF-8";
 /* CSS Document */
 
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.row {
+    overflow: auto;
+}
+
+#home {
+	background-color: #104F41;
+	padding-top: 389px;
+	padding-bottom: 162px;
+}
+
+#bg-drkr-green {
+	background-color: #10443f;
+	padding-top: 26px;
+	padding-bottom: 19px;
+}
+
+#features {
+	background-color: #f4f7f9;
+	padding-top: 68px;
+	padding-bottom: 130px;
+}
+
+#bg-lght-green {
+	background-color: #1ea78d;
+	padding-top: 97px;
+	padding-bottom: 124px;
+}
+
+#works {
+	padding-top: 85px;
+	padding-bottom: 225px;
+}
+
+.row h2 {
+	text-align: center;
+}
+
+a, h1, .bg-lght-green, .bg-drkr-green {
+	color: #fff;
+}
+
+#features, #works {
+	color: #0eb493;
+}
+
+.col-1-3 {
+	width: 324px;
+}
+
+.col-1-3 {
+	float: left;
+}
+
+.col-1-3:last-child, li {
+	float: right;
+}
+
+.col-1-3:first-child {
+	margin-right: 50px;
+}
+
+#works {
+	text-align: center;
+}
+
+#home .wrapper div {
+	margin:0 auto;
+}
+
+li {
+	display: inline-block;
+	width: 75px;
+}
+
+#team > h3, .bg-drkr-green > p {
+	font-family: 'Pacifico', cursive;
+}
+
+#home > div {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
